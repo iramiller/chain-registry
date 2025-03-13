@@ -34,16 +34,17 @@
   },
   "codebase": {
     "git_repo": "https://github.com/provenance-io/provenance",
-    "recommended_version": "v1.17.0",
+    "recommended_version": "v1.21.1",
     "compatible_versions": [
-      "v1.17.0"
+      "v1.21.0",
+      "v1.21.1"
     ],
     "consensus": {
-      "type": "tendermint",
-      "version": "0.34.29"
+      "type": "cometbft",
+      "version": "0.38.17"
     },
     "binaries": {
-      "linux/amd64": "https://github.com/provenance-io/provenance/releases/download/v1.17.0/provenance-linux-amd64-v1.17.0.zip"
+      "linux/amd64": "https://github.com/provenance-io/provenance/releases/download/v1.21.1/provenance-linux-amd64-v1.21.1.zip"
     },
     "genesis": {
       "name": "v1.0.1",
@@ -51,18 +52,18 @@
     },
     "sdk": {
       "type": "cosmos",
-      "version": "0.46.13"
+      "version": "0.50.12"
     },
     "ibc": {
       "type": "go",
-      "version": "6.2.0",
+      "version": "8.3.2",
       "ics_enabled": [
         "ics20-1",
         "ics27-1"
       ]
     },
     "cosmwasm": {
-      "version": "0.30",
+      "version": "0.52.0",
       "enabled": true
     }
   },
